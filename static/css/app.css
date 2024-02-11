@@ -2,9 +2,38 @@ body {
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
   font-size: 14px;
   line-height: 1.5;
+  background-color: azure;
 }
 
 .container {
   max-width: 960px;
   margin: 0 auto;
+}
+
+h1{
+  font-size: 50px;
+  color: purple;
+  text-align: center;
+  padding-top: 5px;
+  font-family: Impact;
+}
+
+p{
+  border: 10px;
+  border-color: black;
+  border-style: dotted;
+  border-radius: 20%;
+  margin: 10px 150px;
+  padding: 10px 10px;
+  line-height: 250%;
+  text-align: justify;
+  font-style: oblique;
+}
+
+img{
+  margin-top: 30px;
+  margin-left: 34%;
+  max-height: 200px;
+  max-width: 200px;
+  border-radius: 50%;
 }
